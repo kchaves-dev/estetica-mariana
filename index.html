@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">    
+    <title>Studio Name</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm" id="navbar">
+        <div class="container px-3 px-md-4">
+            <a class="navbar-brand fw-bold" href="#inicio">✦ Studio Name</a>
+            
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center py-3 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="text-center d-none d-lg-block">
+                    <a href="#contacto" class="btn btn-dark btn-reserva px-4">Agenda tu cita</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="portada">
+            <img src="img/Mariana.jpeg" alt="Portada Studio" class="portada-img">
+            
+            <div class="portada-texto container px-4">
+                <span class="portada-subtitulo d-block mb-2">✦ MAQUILLAJE PROFESIONAL ✦</span>
+                <h1 class="titulo-hero fw-bold mb-3">El arte de realzar<br class="d-none d-md-block"> tu belleza</h1>
+                <p class="lead fs-6 fs-md-4 mb-4">Maquillaje profesional hecho para ti</p>
+                <a href="#contacto" class="btn btn-light btn-lg px-4 fw-semibold shadow-sm">Agenda tu cita</a>
+            </div>
+            
+            <div class="ola">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
+                    <path fill="#ffffff" fill-opacity="1" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Mí -->
+        <section id="sobre-mi" class="py-5 bg-light">
+            <div class="container py-4">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-5 text-center">
+                        <div class="sobre-mi-img-wrapper mx-auto">
+                            <div class="marco-decorativo d-none d-md-block"></div>
+                            <img src="img/Mariana2.jpg" alt="Mariana - Maquilladora Profesional" class="img-fluid rounded-4 shadow-lg">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <span class="text-uppercase tracking-wider text-muted fw-semibold small">✦ Conóceme</span>
+                        <h2 class="display-6 fw-bold mt-1 mb-3">¡Hola! Soy Mariana</h2>
+                        
+                        <p class="lead fs-6 text-secondary mb-3">
+                            Apasionada por el arte del maquillaje y especialista en crear looks que resalten tu belleza única sin perder tu esencia.
+                        </p>
+                        
+                        <p class="text-muted mb-4">
+                            Para mí, el maquillaje no se trata de ocultar, sino de potenciar tu confianza. Ya sea para el día de tu boda, una graduación o una cita especial, mi compromiso es brindarte una experiencia relajante, higiénica y con acabados de larga duración.
+                        </p>
+
+                        <div class="row g-3 mb-4">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center p-3 bg-white rounded-3 shadow-sm border-start border-4 border-dark">
+                                    <span class="fs-3 me-3">✨</span>
+                                    <div>
+                                        <h6 class="mb-0 fw-bold">Productos de Alta Gama</h6>
+                                        <small class="text-muted">Marcas profesionales y duraderas</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center p-3 bg-white rounded-3 shadow-sm border-start border-4 border-dark">
+                                    <span class="fs-3 me-3">👑</span>
+                                    <div>
+                                        <h6 class="mb-0 fw-bold">Atención 100% Personalizada</h6>
+                                        <small class="text-muted">Diseñado según tu estilo y piel</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#servicios" class="btn btn-outline-dark px-4 py-2 rounded-pill fw-semibold">
+                            Ver mis servicios y agenda ➔
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SERVICIOS -->
+        <section id="servicios" class="py-5 bg-light">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <span class="text-uppercase tracking-wider fw-bold text-muted small">+ TUS OPCIONES</span>
+                    <h2 class="display-6 fw-bold mt-1 mb-3">Servicios Diseñados para Ti</h2>
+                    <p class="text-muted mx-auto" style="max-width: 600px;">
+                        Cada look se adapta a la forma de tu rostro, tu estilo personal y el tipo de evento para garantizar un acabado impecable y duradero.
+                    </p>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+                    <!-- Servicio 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 p-4 servicio-card position-relative">
+                            <div class="mb-3">
+                                <span class="badge bg-dark rounded-pill px-3 py-2 fw-normal">El más pedido</span>
+                            </div>
+                            <h3 class="h4 fw-bold mb-2">Maquillaje Social</h3>
+                            <p class="text-muted small mb-4">Ideal para graduaciones, bodas como invitada, sesiones de fotos o eventos de noche.</p>
+                            <hr class="my-3 opacity-10">
+                            <ul class="list-unstyled text-muted small mb-4 flex-grow-1">
+                                <li class="mb-2">✨ Preparación de piel según tu tipo</li>
+                                <li class="mb-2">✨ Pestañas de tira o punto por punto</li>
+                                <li class="mb-2">✨ Maquillaje a prueba de sudor/lágrimas</li>
+                                <li class="mb-2">✨ Kit básico de retoque de regalo</li>
+                            </ul>
+                            <div class="mt-auto">
+                                <div class="d-flex align-items-center mb-3">
+                                    <span class="text-muted small">⏱ Duración: ~1h 15m</span>
+                                </div>
+                                <a href="#contacto" class="btn btn-outline-dark w-100 rounded-pill fw-semibold">Cotizar este Look</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Servicio 2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-2 border-dark shadow rounded-4 p-4 servicio-card position-relative bg-white">
+                            <div class="position-absolute top-0 start-50 translate-middle">
+                                <span class="badge bg-warning text-dark border border-dark rounded-pill px-3 py-2 fw-bold shadow-sm">
+                                    👑 Experiencia VIP
+                                </span>
+                            </div>
+                            <div class="mt-2 mb-3">
+                                <span class="badge bg-secondary bg-opacity-10 text-dark rounded-pill px-3 py-2 fw-normal">Exclusiva</span>
+                            </div>
+                            <h3 class="h4 fw-bold mb-2">Novias & Quinceañeras</h3>
+                            <p class="text-muted small mb-4">Atención personalizada con prueba previa para asegurar el look perfecto en tu gran día.</p>
+                            <hr class="my-3 opacity-10">
+                            <ul class="list-unstyled text-muted small mb-4 flex-grow-1">
+                                <li class="mb-2">✨ Prueba de maquillaje previa</li>
+                                <li class="mb-2">✨ Asesoría visual y paleta de colores</li>
+                                <li class="mb-2">✨ Preparación VIP (Skin Prep de lujo)</li>
+                                <li class="mb-2">✨ Servicio a domicilio el día del evento</li>
+                                <li class="mb-2">✨ Kit de retoque premium</li>
+                            </ul>
+                            <div class="mt-auto">
+                                <div class="d-flex align-items-center mb-3">
+                                    <span class="text-muted small">⏱ Duración: Personalizada</span>
+                                </div>
+                                <a href="#contacto" class="btn btn-dark w-100 rounded-pill fw-semibold shadow-sm">Agendar mi Fecha ➔</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Servicio 3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 p-4 servicio-card position-relative">
+                            <div class="mb-3">
+                                <span class="badge bg-secondary bg-opacity-10 text-dark rounded-pill px-3 py-2 fw-normal">Aprende conmigo</span>
+                            </div>
+                            <h3 class="h4 fw-bold mb-2">Clase Automaquillaje</h3>
+                            <p class="text-muted small mb-4">Sácale el máximo provecho a tus cosméticos y aprende las técnicas para tu rostro.</p>
+                            <hr class="my-3 opacity-10">
+                            <ul class="list-unstyled text-muted small mb-4 flex-grow-1">
+                                <li class="mb-2">✨ Sesión personalizada 1 a 1</li>
+                                <li class="mb-2">✨ Diagnóstico de tipo de piel</li>
+                                <li class="mb-2">✨ Revisión de tu cosmetiquera</li>
+                                <li class="mb-2">✨ Guía digital de pasos en PDF</li>
+                            </ul>
+                            <div class="mt-auto">
+                                <div class="d-flex align-items-center mb-3">
+                                    <span class="text-muted small">⏱ Duración: ~2h 30m</span>
+                                </div>
+                                <a href="#contacto" class="btn btn-outline-dark w-100 rounded-pill fw-semibold">Consultar Fechas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN GALERÍA -->
+        <section id="galeria" class="py-5 bg-light">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <span class="text-uppercase tracking-wider fw-bold text-muted small">+ NUESTRO ARTE</span>
+                    <h2 class="display-6 fw-bold mt-1 mb-3">Galería de Trabajos</h2>
+                    <p class="text-muted mx-auto" style="max-width: 600px;">
+                        Explora nuestras transformaciones. Haz clic en cualquier imagen para verla en tamaño completo.
+                    </p>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="galeria-item rounded-3 shadow-sm" data-bs-toggle="modal" data-bs-target="#modalFoto1">
+                            <img src="img/maquillaje1.jpeg" alt="Maquillaje Social de Noche" class="galeria-img">
+                            <div class="galeria-overlay">
+                                <span class="small text-white fw-bold">Social de Noche</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="galeria-item rounded-3 shadow-sm" data-bs-toggle="modal" data-bs-target="#modalFoto2">
+                            <img src="img/maquillaje2.jpeg" alt="Maquillaje de Novia Natural" class="galeria-img">
+                            <div class="galeria-overlay">
+                                <span class="small text-white fw-bold">Novia Natural</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="galeria-item rounded-3 shadow-sm" data-bs-toggle="modal" data-bs-target="#modalFoto3">
+                            <img src="img/maquillaje3.jpeg" alt="Maquillaje Editorial" class="galeria-img">
+                            <div class="galeria-overlay">
+                                <span class="small text-white fw-bold">Editorial</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="galeria-item rounded-3 shadow-sm" data-bs-toggle="modal" data-bs-target="#modalFoto4">
+                            <img src="img/maquillaje4.jpeg" alt="Maquillaje Smokey Eye Intenso" class="galeria-img">
+                            <div class="galeria-overlay">
+                                <span class="small text-white fw-bold">Smokey Eye</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="galeria-item rounded-3 shadow-sm" data-bs-toggle="modal" data-bs-target="#modalFoto5">
+                            <img src="img/maquillaje5.jpeg" alt="Maquillaje de Fiesta" class="galeria-img">
+                            <div class="galeria-overlay">
+                                <span class="small text-white fw-bold">Fiesta / Glam</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN CONTACTO (Añadida para corregir links rotos) -->
+        <section id="contacto" class="py-5 bg-white">
+            <div class="container text-center py-4">
+                <span class="text-uppercase tracking-wider fw-bold text-muted small">✦ AGENDA TU LUGAR</span>
+                <h2 class="display-6 fw-bold mt-1 mb-3">¿Lista para brillar?</h2>
+                <p class="text-muted mb-4">Ponte en contacto conmigo directamente por WhatsApp para consultar disponibilidad.</p>
+                <a href="https://wa.me/+50685741624?text=Hola!%20Me%20gustaria%20agendar%20una%20cita" target="_blank" class="btn btn-success btn-lg rounded-pill px-4 shadow">
+                    <i class="bi bi-whatsapp me-2"></i>Enviar WhatsApp
+                </a>
+            </div>
+        </section>
+    </main> 
+    <!-- MODALES / LIGHTBOX -->
+    <div class="modal fade" id="modalFoto1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body p-0 position-relative text-center">
+                    <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <img src="img/maquillaje1.jpeg" class="img-fluid rounded-3 shadow-lg" alt="Social de Noche">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalFoto2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body p-0 position-relative text-center">
+                    <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <img src="img/maquillaje2.jpeg" class="img-fluid rounded-3 shadow-lg" alt="Novia Natural">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalFoto3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body p-0 position-relative text-center">
+                    <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <img src="img/maquillaje3.jpeg" class="img-fluid rounded-3 shadow-lg" alt="Editorial">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalFoto4" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body p-0 position-relative text-center">
+                    <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <img src="img/maquillaje4.jpeg" class="img-fluid rounded-3 shadow-lg" alt="Smokey Eye">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalFoto5" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body p-0 position-relative text-center">
+                    <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3 z-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <img src="img/maquillaje5.jpeg" class="img-fluid rounded-3 shadow-lg" alt="Fiesta / Glam">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Fijo Global -->
+    <footer class="footer-fijo py-2 border-top border-1 border-light-subtle">
+        <div class="container d-flex justify-content-between align-items-center">
+            <span class="text-muted" style="font-size: 0.75rem;">
+                &copy; 2026 
+                <a href="https://github.com/tu-usuario" target="_blank" class="dev-credit fw-semibold text-decoration-none">
+                    Studio Name
+                </a>
+            </span>
+
+            <a href="https://instagram.com/tu_amiga" target="_blank" class="instagram-btn d-flex align-items-center gap-1 text-decoration-none" aria-label="Instagram">
+                <span class="d-none d-sm-inline text-secondary" style="font-size: 0.75rem;">Sígueme</span>
+                <i class="bi bi-instagram fs-6 text-dark"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
