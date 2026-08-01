@@ -2,7 +2,7 @@
    1. ESTILOS BASE (MOBILE FIRST - Todas las pantallas)
    ========================================== */
 
-/* Margen global aumentado para que el Footer NUNCA tape "Fiesta/Glam" */
+/* Margen global*/
 body {
     padding-bottom: 90px;
     padding-bottom: calc(90px + constant(safe-area-inset-bottom));
@@ -17,11 +17,10 @@ body {
     z-index: 1030;
 }
 
-/* Hero / Portada Corregido para Móvil */
+/* Hero */
 .portada {
     position: relative;
     width: 100%;
-    /* calc(100vh - 56px) para restar la altura del navbar sticky */
     min-height: calc(100vh - 56px); 
     display: flex;
     flex-direction: column;
@@ -172,8 +171,6 @@ body {
     opacity: 0.7;
     transform: scale(1.05);
 }
-
-
 /* ==========================================
    2. TABLETS (min-width: 768px)
    ========================================== */
